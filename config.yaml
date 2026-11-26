@@ -1,0 +1,43 @@
+# Moe Moe Secretary - Cấu hình (UTF-8)
+# Lưu file này là chương trình tự áp dụng ngay, không cần mở lại.
+
+# Tên tàu trên Azur Lane Wiki (ví dụ: Nagato, Enterprise, Belfast, New Jersey)
+ship_name: Nagato
+
+# Trang phục đang mặc của nhân vật trên (tên trang phục trên Wiki, ví dụ: Default).
+# Chương trình tự ghi khi bạn đổi trang phục hoặc thoát; để trống = trang phục mặc định.
+skin_name: ''
+
+# Ngôn ngữ giao diện: vi (Tiếng Việt) hoặc en (English)
+language: vi
+
+# Tỷ lệ kích thước nhân vật. 1.0 = cao khoảng 600 px (cho phép 0.2 - 2.0)
+scale: 1
+
+# Hiệu ứng lơ lửng nhẹ nhàng (true / false)
+floating: true
+
+# Luôn hiển thị trên cùng các cửa sổ khác (true / false)
+always_on_top: true
+
+# Âm lượng giọng nói từ 0 đến 100 (0 = tắt tiếng, không tải file âm thanh)
+audio_volume: 50
+
+# Tự phát câu thoại riêng của trang phục khi đổi trang phục [J]/[K] (true / false)
+skin_voice: true
+
+# Lật ngang hình ảnh nhân vật (true / false)
+flipped: false
+
+# Độ trong suốt của nhân vật: 1.0 = rõ nét hoàn toàn, 0.1 = gần như vô hình (cho phép 0.1 - 1.0)
+opacity: 1
+
+# Phím tắt TOÀN CỤC bật/tắt Hover Mode (chuột xuyên qua nhân vật, không kéo/nhấp/mở menu được).
+# Ví dụ: F12, Pause, Ctrl+Alt+H, Shift+F9. Phím chữ/số phải đi kèm Ctrl/Alt/Shift/Win.
+# Phím này bị chiếm ở MỌI ứng dụng khi chương trình đang chạy; nếu trùng với ứng dụng khác
+# thì đổi sang tổ hợp khác.
+hover_hotkey: F12
+
+# Thoại tự động khi KHÔNG tương tác: sau ngần này GIÂY nhân vật tự nói lần lượt
+# Task -> Mail -> Commission rồi lặp lại. 300 = 5 phút; 0 = tắt. Cho phép 10 - 86400.
+idle_voice_interval: 300

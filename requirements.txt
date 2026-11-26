@@ -1,0 +1,8 @@
+# Thư viện chạy ứng dụng
+PySide6-Essentials>=6.6,<7   # giao diện gốc Qt (bản Essentials nhẹ hơn nhiều so với PySide6 đầy đủ)
+httpx[http2]>=0.27           # tải dữ liệu từ Wiki (HTTP/2 như trình duyệt)
+beautifulsoup4>=4.12         # phân tích HTML
+lxml>=5.0                    # bộ phân tích nhanh cho BeautifulSoup
+Pillow>=10.0                 # thu nhỏ ảnh trước khi lưu cache
+PyYAML>=6.0                  # đọc/ghi config.yaml
+miniaudio>=1.59              # phát giọng nói (nhẹ, không cần pygame)

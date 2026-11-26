@@ -1,0 +1,3 @@
+# Chỉ cần khi đóng gói .exe hoặc đo tài nguyên
+pyinstaller>=6.6
+psutil>=5.9
